@@ -1,6 +1,27 @@
+html {
+	box-sizing: border-box;
+}
+body {
+	max-width: 35rem;
+	font-size: 2rem;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 2rem 0 4rem;
+}
+img {
+	max-width: 100%;
+}
 .cool-background {
 	color:  white;
 	padding:  1rem;
 	text-align: center;
 	background-image: url("./images/sunset.jpg");
+}
+.navigation ul {
+	display: flex;
+	list-style:none;
+	padding: 2rem;
+}
+.navigation li {
+	padding-right: 1rem;
 }
